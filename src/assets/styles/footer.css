@@ -1,17 +1,20 @@
 @media screen and (min-width: 1288px) {
     #app-footer {
-        position: absolute;
-        bottom: 0%;
+        position: relative;
+        bottom: auto;
         height: 100px;
-        padding: 10px 100px 0px 100px;
+        padding: 10px 50px 0px 50px;
+        margin: auto;
         font-size: 16px;
+        background-color: #F5F5F5;
+        width:auto;
     }
     
     #footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 1288px;
+        width: auto;
     }
     
     #foot-logo {
